@@ -37,9 +37,9 @@ AI-Powered Mock Interview Platform
 
 ---
 
-## 📸 Screenshots
+## 📸 Live Demo
 
-> _Add screenshots/gifs here to showcase the UI_
+https://interview-ready-znij.vercel.app
 
 ---
 
