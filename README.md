@@ -1,36 +1,109 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 Interview Ready
 
-## Getting Started
+AI-Powered Mock Interview Platform
 
-First, run the development server:
+[![Next.js](https://img.shields.io/badge/Next.js-13+-black?logo=nextdotjs)](https://nextjs.org/)
+[![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3.x-blue?logo=tailwindcss)](https://tailwindcss.com/)
+[![shadcn/ui](https://img.shields.io/badge/shadcn--ui-%23F4F4F5?logo=react)](https://ui.shadcn.com/)
+[![Clerk Auth](https://img.shields.io/badge/Auth-Clerk-orange?logo=clerk)](https://clerk.dev/)
+[![Drizzle ORM](https://img.shields.io/badge/ORM-Drizzle-6E4AFF?logo=drizzle)](https://orm.drizzle.team/)
 
+---
+
+## ✨ Overview
+
+**Interview Ready** is a modern, full-stack web application that helps you practice for job interviews with AI-generated questions and instant feedback. Create personalized mock interviews, record your answers, and receive actionable feedback to ace your next interview.
+
+---
+
+## 🛠️ Tech Stack
+- **Framework:** Next.js 13+ (App Router)
+- **Styling:** Tailwind CSS, shadcn/ui
+- **Database:** Drizzle ORM (PostgreSQL)
+- **Authentication:** Clerk
+- **AI Integration:** Gemini (Google AI)
+- **Component Library:** Lucide Icons, shadcn/ui
+
+---
+
+## 🚩 Features
+- 🧠 **AI-Powered Mock Interviews**: Generate custom interview questions and answers for any job role.
+- 🎤 **Voice Recording**: Record your answers directly in the browser.
+- ⚡ **Instant Feedback**: Get AI-generated ratings and improvement tips for each answer.
+- 📊 **Performance Dashboard**: Track your progress and review past interviews.
+- 🔒 **Secure Authentication**: Powered by Clerk.
+- 📱 **Responsive Design**: Beautiful and modern UI on all devices.
+- 🌙 **Dark Mode Ready** (if enabled in Tailwind config).
+
+---
+
+## 📸 Screenshots
+
+> _Add screenshots/gifs here to showcase the UI_
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/interview-ready.git
+cd interview-ready
+```
+
+### 2. Install dependencies
+```bash
+npm install
+# or
+yarn install
+```
+
+### 3. Set up environment variables
+- Copy `.env.example` to `.env.local` and fill in your credentials (Clerk, database, AI API keys, etc).
+
+### 4. Run the development server
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the app.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🧩 Project Structure
+```
+app/
+  ├── dashboard/
+  ├── (auth)/
+  ├── components/
+  ├── utils/
+  ├── public/
+  └── ...
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📚 Learn More
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Tailwind CSS](https://tailwindcss.com/docs)
+- [shadcn/ui](https://ui.shadcn.com/)
+- [Clerk Auth](https://clerk.dev/docs)
+- [Drizzle ORM](https://orm.drizzle.team/docs)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛡️ License
 
-## Deploy on Vercel
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 💡 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to open an issue or submit a pull request.
+
+---
+
+## 🌟 Star this repo if you like it!
